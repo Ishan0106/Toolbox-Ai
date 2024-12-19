@@ -1,12 +1,18 @@
----
+description: >
+  A full-stack application aimed at enhancing developer productivity with tools like
+  summaries, paragraph generation, coding logic, stories, chatbot interactions, and
+  grammar corrections.
 
-**Description**:  
-A full-stack application aimed at enhancing developer productivity with tools like summaries, paragraph generation, coding logic, stories, chatbot interactions, and grammar corrections.
-
-**Tech Stack**:  
-- Frontend: React.js, Tailwind CSS, Material UI  
-- Backend: Node.js, Express.js, MongoDB  
-- APIs: OpenAI API, Gemini API  
-- Authentication: JWT  
-
----
+tech_stack:
+  frontend:
+    - React.js
+    - Tailwind CSS
+    - Material UI
+  backend:
+    - Node.js
+    - Express.js
+    - MongoDB
+  apis:
+    - OpenAI API
+    - Gemini API
+  authentication: JWT
