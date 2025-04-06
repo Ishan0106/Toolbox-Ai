@@ -15,6 +15,8 @@ import Shortme from './pages/Shortme';
 import Story from './pages/Story';
 import Grammer from './pages/Grammer';
 import Code from './pages/Code';
+import QRCodeGenerator from './pages/QRCodeGenerator';
+import ChartGenerator from './pages/ChartGenerator';
 
 function App() {
   const theme = useMemo(() => createTheme(themeSettings(), []));
@@ -34,6 +36,8 @@ function App() {
           <Route path="/story" element={<Story />} />
           <Route path="/grammer" element={<Grammer />} />
           <Route path="/code" element={<Code />} />
+          <Route path='/qRCodeGenerator' element={<QRCodeGenerator />} />
+          <Route path='/chartgenerator' element={<ChartGenerator />} />
         </Routes>
       </ThemeProvider>
     </>

@@ -51,8 +51,6 @@ const Chatbot = () => {
         }
     }
 
-
-
     return (
         <Box
             width={isNotMobile ? "40%" : "80%"}
